@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "roboto";
+}
+
+header {
+    background-color: #129799;
+    padding-top: 24px;
+}
+
+main {
+    background-color: #FFA185;
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner {
+    max-width: 1366px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+nav li a {
+    color: #ffffff;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.titulo-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imagem-life {
+    width: 600px;
+    display: flex;
+}
+
+.imagem-life img {
+    width: 100%;
+}
+
+.imagens-main img {
+    max-width: 640px;
+    width: 100%;
+}
+
+.lista-2 {
+    padding-bottom: 20px;
+}
+
+section h1 {
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.section-da-main {
+    background-color: #FFA185;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+
+.titulo-main {
+    padding: 12px;
+}
+
+.titulo-main h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.imagens-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.imagens-main img {
+    padding: 20px 0;
+}
+
+.veja-mais {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    padding: 48px 0 53px;
+}
+
+.veja-mais {
+    font-size: 25px;
+    font-weight: 700;
+    color: #000000;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #129799;
+    padding: 20px;
+}
+
+.conteiner-rodape {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap-reverse;
+    max-width: 1366px;
+    width: 100%;
+}
+
+.nav-rodape {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-rodape ul {
+    flex-wrap: wrap;
+}
+
+.nav-rodape ul li {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+@media (max-width: 1366px) {
+    .titulo-principal {
+        margin-top: 20px;
+    }
+
+    .titulo-principal h1 {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    .titulo-principal img {
+        padding: 0 10px;
+    }
+}
